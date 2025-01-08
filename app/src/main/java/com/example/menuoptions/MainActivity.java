@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity{
 
     EditText ET1, ET2;
     TextView TV1;
-    float num1, num2;
+    int num1, num2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,8 +44,8 @@ public class MainActivity extends AppCompatActivity{
         try
         {
             // Get numbers from ET
-            num1 = Float.parseFloat(String.valueOf(ET1.getText()));
-            num2 = Float.parseFloat(String.valueOf(ET2.getText()));
+            num1 = Integer.parseInt(String.valueOf(ET1.getText()));
+            num2 = Integer.parseInt(String.valueOf(ET2.getText()));
         }
 
         catch (NumberFormatException e)
