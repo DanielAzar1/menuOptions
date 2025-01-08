@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity{
         // Clears ALL texts
         switch (st) {
             case "C":
-                ET1.setText("");
+                ET1.setText(" ");
                 ET2.setText("");
                 TV1.setText("");
                 break;
